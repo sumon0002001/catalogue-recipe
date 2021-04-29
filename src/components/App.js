@@ -1,8 +1,17 @@
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import RecipeItem from '../containers/recipe/RecipeItem';
+import Navbar from './navbar/Navbar';
+
+
 function App() {
   return (
-    <div className="App">
-     <h1> Hello </h1>
-    </div>
+    <BrowserRouter>
+    <Navbar />
+    <Switch>
+      <Route exact path="/" component={RecipeItem}/>
+    </Switch>
+    </BrowserRouter>
+   
   );
 }
 
