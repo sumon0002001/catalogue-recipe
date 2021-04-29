@@ -34,3 +34,6 @@ export const getSingleRecipe = async (id, hook )  => {
   const item = await getApi(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`);
   hook(setActiveRecipe(item.meals[0]));
   };
+
+  export default filterRecipes;
+  
