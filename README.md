@@ -96,7 +96,6 @@ Give a ⭐️ if you like this project!
 - W3Schools
 - Font Awesome
 - Javascript
-- Jest
 - React Testing Library
 - Redux
 - Redux-thunk
