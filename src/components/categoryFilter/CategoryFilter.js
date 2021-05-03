@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const CategoryFilter = ({ handleChange, categories }) => (
   <select name="categories" onChange={handleChange} defaultValue="default">
-    <option value="default" disabled>Select a category</option>
+    <option value="default" disabled>Select a Category</option>
     {categories.map(item => <option key={`${item.strCategory}_option`} value={item.strCategory}>{item.strCategory}</option>)}
   </select>
 );

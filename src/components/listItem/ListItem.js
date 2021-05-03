@@ -13,7 +13,7 @@ const ListItem = ({ meal, dispatch }) => {
       <img src={meal.strMealThumb} alt="meal-thumb" />
       <div>
         <h2>{meal.strMeal}</h2>
-        <Link to={`/${meal.strMeal.toLowerCase()}`} onClick={handleChoice} className="btn"> Start Cooking</Link>
+        <Link to={`/${meal.strMeal.toLowerCase()}`} onClick={handleChoice} className="btn"> Ready To Cook?</Link>
       </div>
     </div>
   );

@@ -26,8 +26,8 @@ const RecipeList = () => {
   return (
     <div className="recipe-list">
       <div className="recipe-list-header">
-        <h1>Welcome to Cook This!</h1>
-        <h3>First choose the type of meal you want to prepare</h3>
+        <h1>Welcome to My Recipe!</h1>
+        <h3>Are you Ready to Cook?</h3>
         <CategoryFilter categories={categories} handleChange={handleChange} />
       </div>
       <div className="recipe-list-body">
