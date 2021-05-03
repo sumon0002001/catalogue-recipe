@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { getSingleRecipe } from '../,,/actions';
+import { getSingleRecipe } from '../../actions';
 import './listItem.css';
 
 const ListItem = ({ meal, dispatch }) => {
@@ -9,17 +9,17 @@ const ListItem = ({ meal, dispatch }) => {
   };
 
   return (
-    <div className='list-item'>
-      <img src={meal.strMealThumb} alt='meal-thumb' />
+    <div className="list-item">
+      <img src={meal.strMealThumb} alt="meal-thumb" />
       <div>
-      <h2>{meal.str}</h2>
-      <Link to={`/${meal.strMeal.toLowerCase()}`} onClick={handleChoice} className="btn"> Start Cooking</Link>
+        <h2>{meal.strMeal}</h2>
+        <Link to={`/${meal.strMeal.toLowerCase()}`} onClick={handleChoice} className="btn"> Start Cooking</Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
-ListItem.PropTypes = {
+ListItem.propTypes = {
   meal: PropTypes.exact(
     {
       idMeal: PropTypes.string,
@@ -30,4 +30,4 @@ ListItem.PropTypes = {
   dispatch: PropTypes.func.isRequired,
 };
 
-export default ListItem:
+export default ListItem;
