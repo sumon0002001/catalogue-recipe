@@ -35,5 +35,5 @@ export const getSingleRecipe = async (id, hook )  => {
   hook(setActiveRecipe(item.meals[0]));
   };
 
-  export default filterRecipes;
+export default filterRecipes;
   
