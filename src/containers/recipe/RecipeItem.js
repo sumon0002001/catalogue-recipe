@@ -48,7 +48,7 @@ const RecipeItem = () => {
         <div className="inst-wrap">
           <iframe src={`https://www.youtube.com/embed/${ytLink()[1]}`} frameBorder="0" title={recipe.strMeal} allowFullScreen />
           <p>{recipe.strInstructions}</p>
-          {recipe.strSource ? <a href={recipe.strSource} className="btn">Source</a> : ''}
+          {/* {recipe.strSource ? <a href={recipe.strSource} className="btn">Source</a> : ''} */}
         </div>
       </div>
     ) : <Loading />
