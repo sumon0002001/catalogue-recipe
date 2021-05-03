@@ -1,3 +1,4 @@
+import React from 'react';
 import './category.css';
 import PropTypes from 'prop-types';
 

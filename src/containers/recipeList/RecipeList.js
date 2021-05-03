@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import filterRecipes, { getRecipes } from '../../actions';
@@ -16,7 +17,7 @@ const RecipeList = () => {
     setLoaded(false);
     getRecipes(current, dispatch)
       .then(setLoaded(true));
-      // eslint-disable-next-line react-hooks/exhaustive-deps
+      
   }, [current]);
 
   const handleChange = ({ target: { value } }) => {

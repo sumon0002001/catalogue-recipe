@@ -1,4 +1,5 @@
-import './loading.css';
+import React from 'react';
+import './Loading.css';
 
 const Loading = () => (
   <div className="loader-cont">
