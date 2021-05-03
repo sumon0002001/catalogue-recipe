@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import Loading from '../../components/loading/Loading';
-import './recipeItem.css';
+import './RecipeItem.css';
 
 const RecipeItem = () => {
   const recipe = useSelector(state => state.recipeList.active);
