@@ -14,7 +14,7 @@
 
 ## Live Link Demo
 
-[Catalogue of Dogs]()
+[Catalogue of Recipes]()
 
 ## Project videos
 
