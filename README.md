@@ -101,6 +101,4 @@ Give a ⭐️ if you like this project!
 - Redux-thunk
 - Unsplash
 
-## 📝 License
 
-This project is [MIT](LICENSE) licensed.
