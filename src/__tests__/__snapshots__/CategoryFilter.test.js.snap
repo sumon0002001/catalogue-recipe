@@ -2,12 +2,13 @@
 
 exports[`Componenet renders correctly 1`] = `
 <select
+  defaultValue="default"
   name="categories"
   onChange={[Function]}
 >
   <option
     disabled={true}
-    selected={true}
+    value="default"
   >
     Select a category
   </option>
