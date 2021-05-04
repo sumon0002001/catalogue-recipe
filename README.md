@@ -10,8 +10,7 @@
 <p align="center">Catalogue of Recipes  app in React is a practice project, which includes manipulating dynamically the Virtual DOM and, use States and Props (useState Hook) and useEffect Hook to change the information accordingly with the user interactions. All photos are retrieved from Unsplash API and the information kept on a Redux store available on all application components. In order to test the React Components, I use React Testing Library. Built with React, JavaScript, HTML5, CSS3, Bootstrap, Redux and Prop-types.</p>
 
 ## App Screenshot
-[screen_shot]
- (./screen.png)
+![Page](./screen.png)
 
 ## Live Link Demo
 
